@@ -1,0 +1,107 @@
+/* grid home style */
+.post-container{padding:0;background:transparent}
+.blog-posts{margin:0 -14px;margin-left:0px;}
+.blog-posts .post-outer{width:50%;padding:0 15px 15px 10px;box-sizing:border-box;padding-left: 0;}
+.blog-posts{display:flex;flex-wrap:wrap;}
+.blog-posts .post-outer .post{
+  width:100%;
+  height:100%;
+  background:#fff;
+  overflow:hidden;
+  position:relative;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 7px 7px 7px 7px;
+  transition: all .5s ease;
+  border:8px solid #fff;
+  box-shadow:0 6px 18px 0 rgba(9,32,76,.035);
+  }
+
+.img-thumbnail{
+  position:relative;
+  float:none;
+  width:100%;
+  height:0;
+  overflow:hidden;
+  margin: 0;
+  }
+
+
+
+
+.img-thumbnail img{width:100%;height:auto;border-radius:0;box-sizing:border-box;border-radius:7px;}
+
+@media screen and (max-width:640px) {
+  .img-thumbnail img {
+  
+  }
+}
+
+@media screen and (max-width:320px) {
+  .img-thumbnail img {
+  height:100%;
+  }
+}
+
+h2.post-title {
+    margin: 0;
+    padding: 14px 10px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.post-outer .post .post-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: .85rem;
+    box-sizing: border-box;
+}
+.post-outer .post span.post-comments{float:right;margin-top:1px;}
+
+@media screen and (max-width: 480px){
+  .post-outer .post span.post-comments{margin-top:7px;}
+}
+span.post-label{float:left}
+span.post-label a:nth-child(n+2){display:none}
+.post-bottom a {
+    color: #657786;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.post-comments a svg {width:20px;height:20px;stroke:currentColor;fill:none;vertical-align:-5px;}
+
+.post-label a {
+    background: none;
+    color: #657786;
+    padding:8px 0px;
+  	font-size: 13px;
+}
+/** ICON DEFAULT **/
+
+
+.post-container{padding-right:0;width:100%;}
+@media (max-width:480px){.blog-posts .post-outer{padding:0 5px 4px;margin:0 0 7px 0;width:50%;}.img-thumbnail{margin:0;}h2.post-title{margin-bottom:14px;font-size:10px;padding:1px 5px}.post-label a::before{padding:5px;font-size: 9px;}.post-outer .post .post-bottom{padding:7px 10px;bottom:0px;}}
+
+@media (max-width:640px){.post-container{width:100%!important}.item-thumbnail{width:70px;float:left;padding-bottom:0;height:70px;margin-right:14px;margin-bottom:14px} .PopularPosts .item-title{padding:0;font-size:14px}.post-outer .post .post-bottom {bottom:0px;}
+.latest-post-title h2 {
+  width:87%;
+}
+.blog-posts {
+  padding-right: 0px;
+  margin:0 -7px!important;
+}
+}
+
+@media screen and (max-width: 800px){
+  .blog-posts {
+  margin:0 -15px;
+  margin-left:-2px;
+  }
+}
